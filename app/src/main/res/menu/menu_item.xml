@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_action"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/sort_action"
+        android:title="Sort"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_sort_24"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/sort_action1"
+                android:title="Sort by Book Name"
+                app:showAsAction="never"
+
+                />
+            <item
+                android:id="@+id/sort_action2"
+                android:title="Sort by Date"
+                app:showAsAction="never"
+
+                />
+        </menu>
+    </item>
+
+
+</menu>

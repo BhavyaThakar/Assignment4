@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Random</string>
+
+    <string-array name="genres">
+        <item>Select Genre</item>
+        <item>Fantasy</item>
+        <item>Sci-Fi</item>
+        <item>Detective and Mystery</item>
+        <item>Suspense Thriller</item>
+        <item>Romance</item>
+        <item>Westerns</item>
+        <item>Dystopian</item>
+        <item>Contemporary</item>
+        <item>True Crime</item>
+        <item>Self-Help</item>
+
+
+    </string-array>
+</resources>
